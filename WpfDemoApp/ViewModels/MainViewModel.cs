@@ -30,8 +30,8 @@ namespace WpfDemoApp.ViewModels
         public IEnumerable<RegionModel> Regions = new List<RegionModel>();
         public IEnumerable<ProvinceModel> Provinces = new List<ProvinceModel>();
 
-        public ICommand GetRegions { get; set; } // should use init but this is an old C# definition
-        public ICommand GetProvinces { get; set; }
+        public ICommand GetRegions { get; private set; } // should use init but this is an old C# definition
+        public ICommand GetProvinces { get; private set; }
 
         public MainViewModel()
         {
