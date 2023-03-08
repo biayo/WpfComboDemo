@@ -7,3 +7,5 @@ Trying to bind a couple of comboboxes with a remote service (in this case, the F
 
 ## The implementation
 Tried my best to use the MVVM pattern without any nuget package that could make things easier (like heroes we die!)
+
+Still trying to fix the views, will do ASAP (hopefully)
